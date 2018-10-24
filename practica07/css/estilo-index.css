@@ -1,0 +1,24 @@
+html, body{
+    margin: 0;
+    font-family: sans-serif;
+}
+h1{
+    background-color: lightgray;
+    font-weight: normal;
+    font-family: inherit;
+    margin: 0;
+    padding: 80px;
+    font-size: 3em;
+    margin-bottom: 50px;
+}
+ul{
+    padding-left: 200px;
+}
+li{
+    padding: 4px;
+}
+a{
+    text-decoration: none;
+    font-weight: 2em;
+}
+
