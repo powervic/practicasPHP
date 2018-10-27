@@ -4,23 +4,11 @@ html, body{
 }
 h1{
     background-color: lightgray;
+    text-align: center;
+    font-family: sans-serif;
     font-weight: normal;
-    font-family: inherit;
     margin: 0;
     padding: 80px;
     font-size: 3em;
     margin-bottom: 50px;
 }
-ul{
-    padding-left: 200px;
-}
-li{
-    padding: 4px;
-}
-a{
-    color: #007bff;
-    text-decoration: none;
-    display: block;
-    margin-right: 800px;
-}
-

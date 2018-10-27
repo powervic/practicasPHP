@@ -7,16 +7,9 @@
 </head>
 <body>
     <h1>COMPROBACIÓN NUMÉRICA</h1>
-    <form action=" " method="get">
+    <form action="comprobacion.php" method="get">
         <label>Escribe un número</label> <br>
-        <input type="number"<?php
-        if (!empty($_GET)==""){
-            $numero =$_GET["number"];
-
-        }
-        else echo "<p id='rojo'>No se ha enviado un número</p>"
-
-        ?>>
+        <input type="number" name="number" step="0.01">
             <br>
         <button>Calcular</button>
     </form>
